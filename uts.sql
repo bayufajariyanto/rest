@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 18, 2019 at 01:31 PM
+-- Generation Time: Oct 18, 2019 at 05:07 PM
 -- Server version: 10.1.31-MariaDB
 -- PHP Version: 7.2.3
 
@@ -46,8 +46,16 @@ CREATE TABLE `klasemen` (
 --
 
 INSERT INTO `klasemen` (`id`, `name`, `p`, `w`, `d`, `l`, `f`, `a`, `gd`, `pts`) VALUES
-(0, '', 0, 0, 0, 0, 0, 0, 0, 0),
-(1, 'Liverpool', 8, 8, 0, 0, 20, 6, 14, 24);
+(1, 'Liverpool', 8, 8, 0, 0, 20, 6, 14, 24),
+(2, 'Manchester City', 8, 5, 1, 2, 27, 9, 18, 16),
+(3, 'Arsenal', 8, 4, 3, 1, 13, 11, 2, 15),
+(4, 'Leicester City', 8, 4, 2, 2, 14, 7, 7, 14),
+(5, 'Chelsea', 8, 4, 2, 2, 18, 14, 4, 14),
+(6, 'Crystal Palace', 8, 4, 2, 2, 8, 8, 0, 14),
+(7, 'Burnley', 8, 3, 3, 2, 11, 9, 2, 12),
+(8, 'West Ham United', 8, 3, 3, 2, 11, 11, 0, 12),
+(9, 'Tottenham Hotspur', 8, 3, 2, 3, 14, 12, 2, 11),
+(10, 'AFC Bournemouth', 8, 3, 2, 3, 13, 13, 0, 11);
 
 --
 -- Indexes for dumped tables
@@ -67,7 +75,7 @@ ALTER TABLE `klasemen`
 -- AUTO_INCREMENT for table `klasemen`
 --
 ALTER TABLE `klasemen`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
