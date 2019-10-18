@@ -16,4 +16,16 @@ class Klasemen_model extends CI_Model
         $this->db->delete('klasemen', ['id' => $id]);
         return $this->db->affected_rows();
     }
+
+    public function createKlasemen($data)
+    {
+        $this->db->insert('klasemen', $data);
+        return $this->db->affected_rows();
+    }
+
+    public function updateKlasemen($data, $id)
+    {
+        $this->db->update('klasemen', $data, ['id' => $id]);
+        return $this->db->affected_rows();
+    }
 }
