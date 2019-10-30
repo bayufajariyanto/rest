@@ -1,4 +1,4 @@
-# Langkah - langkah
+# Langkah - langkah rest Sister
 1. Clone en repone
 2. Paste ndek htdocs
 3. Import database uts.sql
