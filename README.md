@@ -4,3 +4,5 @@
 3. Import database uts.sql
 4. Jalan o rest sementara ndek local http://localhost/rest/api/klasemen
 5. Sementara sing iso digawe mek method GET tok
+
+# Aplikasi ini untuk mengambil data dari website lain
