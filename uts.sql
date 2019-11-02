@@ -55,7 +55,10 @@ INSERT INTO `klasemen` (`id`, `name`, `p`, `w`, `d`, `l`, `f`, `a`, `gd`, `pts`)
 (7, 'Burnley', 8, 3, 3, 2, 11, 9, 2, 12),
 (8, 'West Ham United', 8, 3, 3, 2, 11, 11, 0, 12),
 (9, 'Tottenham Hotspur', 8, 3, 2, 3, 14, 12, 2, 11),
-(10, 'AFC Bournemouth', 8, 3, 2, 3, 13, 13, 0, 11);
+(10, 'AFC Bournemouth', 8, 3, 2, 3, 13, 13, 0, 11),
+
+INSERT INTO `klasemen` VALUES
+(11, 'Paris Saint German', 6, 5, 4, 3, 2, 1, 7, 8)
 
 --
 -- Indexes for dumped tables
