@@ -6,4 +6,3 @@
 5. Sementara sing iso digawe mek method GET tok
 
 # Aplikasi ini untuk mengambil data dari website lain
-lah
