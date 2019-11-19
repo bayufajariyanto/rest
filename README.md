@@ -6,4 +6,3 @@
 5. Sementara sing iso digawe mek method GET tok
 
 # Aplikasi ini dibuat untuk menyelesaikan tugas Sistem Terdistribusi
-# Coba
